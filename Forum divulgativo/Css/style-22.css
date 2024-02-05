@@ -1,0 +1,20 @@
+.identify-acess
+{
+    width: 100%;
+    max-width: 95%;
+    padding: 10px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.redirect-adm > button
+{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(0, 183, 255);
+    color: white;
+}

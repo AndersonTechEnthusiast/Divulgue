@@ -1,0 +1,56 @@
+.Form-MensageForUser
+{
+    width: 100%;
+    text-align: center;
+}
+.MensageForUser-Container 
+{
+    width: 100%;
+    border: 2px groove blue;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 392px;
+}
+.title-Mensage
+{
+    font-size: 18px;
+    width: auto;
+    margin: 0;
+    float: none;
+    line-height: normal;
+}
+.icon-Adm
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Container-Text-ForUser
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    resize: none;
+    outline: none;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Form-MensageForUser > input[type=submit]
+{
+    width: 200px;
+    border: none;
+    background-color: rgb(0,153,255);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0px;   
+}

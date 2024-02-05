@@ -1,0 +1,58 @@
+.Container-Tel
+{
+    width: 100%;
+}
+.form-tel
+{
+    width: 400px;
+    margin: 20px auto;
+}
+.form-tel > .container-input-tell
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px groove rgb(0,153,255);
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: 1s;
+}
+.form-tel > .container-input-tell > .icon-tel
+{
+    width: 50px;
+}
+.form-tel > .container-input-tell > .icon-tel > i
+{
+    font-size: 20px;
+}
+.form-tel > .container-input-tell > .inputs-tel
+{
+    width: 350px;
+}
+.form-tel > .container-input-tell > .inputs-tel > input[type=text],input[type=url]
+{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.btn-send
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-send > input[type=submit]
+{
+    background: rgb(0,153,255);
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.btn-send > input[type=submit]:hover
+{
+    opacity: 0.6;
+}

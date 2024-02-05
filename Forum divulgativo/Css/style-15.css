@@ -1,0 +1,11 @@
+.icon-Welcome-MyPost
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon-Welcome-MyPost > img
+{
+    width: 100px;
+}

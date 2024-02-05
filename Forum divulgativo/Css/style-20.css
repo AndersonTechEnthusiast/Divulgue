@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+body
+{
+    background: #202020;
+    font-family: 'Open Sans',sans-serif;
+}
+.backDrop
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Image/rodape.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.backDrop::after
+{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.front
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.front > form
+{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.front > form > .inputs
+{
+    border: 2px groove gray;
+    border-radius: 20px;
+    padding: 10px;
+    width: 80%;
+}
+.front > form > .inputs > select
+{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+}
+.front > form > .btn-submit
+{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.front > form > .btn-submit > input[type=submit]
+{
+    width: 50%;
+    background: red;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}

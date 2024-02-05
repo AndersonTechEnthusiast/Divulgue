@@ -1,0 +1,74 @@
+.Container-Div-Style
+{
+    width: 100%;
+    max-width: 95%;
+    margin: 20px auto;
+}
+.Item
+{
+    padding: 20px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.8);
+    margin: 20px 0px;
+}
+.Apresentation
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 95%;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.Apresentation > p
+{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+.Apresentation::before,.Apresentation::after
+{
+    content: " ";
+    display: inline-block;
+    height: 5px;
+    width: 40%;
+    background: black;
+}
+#navbarNav
+{
+    justify-content: flex-end;
+}
+.Size
+{
+    height: 400px;
+}
+.position
+{
+    width: 50%;
+    margin: 20px auto;
+}
+.section-nav
+{
+    width: 100%;
+    max-width: 95%;
+    margin: 20px auto;
+}
+.background-style
+{
+    width: 100%;
+    background-color: #202020;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.link-nav
+{
+    margin-left: 30px;
+}

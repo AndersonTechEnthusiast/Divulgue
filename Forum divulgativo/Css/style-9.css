@@ -1,0 +1,45 @@
+.Container-Posts-Numbers
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Link-Actived-Translex
+{
+    width: 100%;
+    text-decoration: none;
+}
+.Container-Actived-Translex
+{
+    width: 100%;
+    margin: 2px 0px;
+}
+.View-container-translex
+{
+    display: flex;
+    align-items: center;
+    background: #202020;
+    color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+.imagem-icon
+{
+    margin-right: 20px;
+}
+.Translex-Container-Height
+{
+    background-color:cornflowerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+}

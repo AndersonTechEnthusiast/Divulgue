@@ -1,0 +1,86 @@
+.Container-Postar-Novo-Post
+{
+    width: 100%;
+    padding: 20px;
+}
+.Post
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Post > .Preview-Photo-And-Title
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.Post > .Preview-Photo-And-Title > .Image-Post
+{
+    margin-right: 20px;
+}
+.Post > .Preview-Photo-And-Title > .Image-Post > label > img
+{
+    width: 622px;
+    height: 415px;
+    cursor: pointer;
+}
+.Post > .Preview-Photo-And-Title > .container-inputs
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
+    padding: 10px;
+}
+.Post > .Preview-Photo-And-Title > .container-inputs > .inputs > select
+{
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.Post > .Preview-Photo-And-Title > .container-inputs > .inputs
+{
+    width: 400px;
+    border: 2px groove rgb(0,153,255);
+    border-radius: 20px;
+}
+.Post > .Preview-Photo-And-Title > .container-inputs > .inputs > .input
+{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.Post > .Preview-Photo-And-Title > .hidden
+{
+    display: none;
+}
+.Post > .buttons
+{
+    width: calc(622px + 20px + 400px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Post > .buttons > input[type=submit]
+{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(0,153,255);
+    color: white;
+}

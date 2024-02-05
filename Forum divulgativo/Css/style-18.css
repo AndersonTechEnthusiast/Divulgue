@@ -1,0 +1,28 @@
+.form-table
+{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.delete-tel
+{
+    width: 200px;
+    padding: 5px;
+    background: red;
+    border: none;
+    border-radius: 10px;
+    color:azure;
+    cursor: pointer;
+    transition: 1s;
+}
+.delete-tel:hover
+{
+    transition: 1s;
+    opacity: 0.6;
+}
+#new-size
+{
+    width: 0%;
+    text-align: center;
+}

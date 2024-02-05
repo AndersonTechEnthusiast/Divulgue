@@ -1,0 +1,76 @@
+.container-Posts
+{
+    width: 100%;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.container-Posts > .posts-actions-MyPost
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 420px;
+    border: none;
+    margin: 20px 2px;
+}
+.container-Posts > .posts-actions-MyPost > .title-MyPost
+{
+    width: 100%;
+    background: #202020;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container-Posts > .posts-actions-MyPost > .category-MyPost
+{
+    width: 100%;
+    background: #202020;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container-Posts > .posts-actions-MyPost > .image-MyPost,
+.container-Posts > .posts-actions-MyPost > .image-MyPost > img
+{
+    width: 420px;
+    height: 260px;
+}
+.container-Posts > .posts-actions-MyPost > .btns-MyPost
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container-Posts > .posts-actions-MyPost > .btns-MyPost > form
+{
+    width: 45%;
+    margin: 10px 0px;
+}
+#Form-Excluir
+{
+    background: red;
+    width: 100%;
+    padding: 10px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+#Form-Editar
+{
+    background: rgb(0,153,255);
+    width: 100%;
+    padding: 10px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.Itens-View
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.PostView
+{
+    width: 427.18px;
+    height: 300px;
+    margin: 50px 0px;
+}
+.container-Post-View
+{
+    border: none;
+    width: 100%;
+}
+.title-Post-View
+{
+    float: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: none;
+    width: auto;
+    text-align: center;
+    background: #202020;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+.Post-Size
+{
+    width: 100%;
+    height: 300px;
+}
+.Button-Redirect > a > button
+{
+    width: 100%;
+    border: none;
+    text-align: center;
+    background: rgb(0, 153, 255);
+    color: white;
+    padding: 10px;
+    transition: 1s;
+}
+.Button-Redirect > a > button:hover
+{
+    transition: 1s;
+    opacity: 0.3;
+}

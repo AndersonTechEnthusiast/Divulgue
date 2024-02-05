@@ -1,0 +1,29 @@
+.tabela-nomes-emails
+{
+    width: 100%;
+    border: none;
+}
+.tabela-nomes-emails > tbody > .tabela-coluna-nomes-emails > .titulos-nomes,
+.tabela-nomes-emails > tbody > .tabela-coluna-nomes-emails > .titulos-emails,
+.tabela-nomes-emails > tbody > .tabela-coluna-nomes-emails > .titulos-id
+{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+}
+.tabela-nomes-emails > tbody > .tabela-nomes-emails-usuarios > .id-do-usuario,
+.tabela-nomes-emails > tbody > .tabela-nomes-emails-usuarios > .nome-do-usuario,
+.tabela-nomes-emails > tbody > .tabela-nomes-emails-usuarios > .email-do-usuario
+{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+}
+tbody
+{
+    border-color: none;
+    border-style: none;
+    border-width: none;
+}

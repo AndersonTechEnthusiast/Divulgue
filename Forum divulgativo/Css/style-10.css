@@ -1,0 +1,115 @@
+.Container-o-que-temos
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Views-Pages
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* .Pages-Gerenciador
+{
+    width: 427.18px;
+    height: 300px;
+} */
+.Page
+{
+    margin: 10px 0;
+}
+.Page,
+.Page > div
+{
+    width: 427.18px;
+    height: 300px;
+}
+.Page > div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Imagem-view > img
+{
+   width: 400px;
+   height: 250px;
+}
+.Buttons-Acions
+{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.Buttons-Acions > form > input[type=submit]
+{
+    width: 190px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+#Editar
+{
+    background: rgb(0,153,255);
+    color: white;
+}
+#Excluir
+{
+    background-color: red;
+    color: white;
+}
+#new-page
+{
+    display: none;
+}
+.New-Pages
+{
+    width: 100%;
+}
+.New-Pages > p 
+{
+    text-align: center;
+    font-size: 3rem;
+}
+.new-pages-form
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button-select
+{
+    margin: 20px 0px;
+}
+.button-select > input[type=submit]
+{
+    display: block;
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(0,153,255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button-select > button
+{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.View-Photo > label > img
+{
+    width: 940px;
+    height: 548px;
+}

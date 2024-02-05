@@ -1,0 +1,114 @@
+.PopUp-Notificacion
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+}
+.Form-PopUp-Notificacion
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.PopUp-Notificacion-Title
+{
+    font-size: 18px;
+    float: none;
+    width: auto;
+    margin: 0;
+    line-height: none;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: black;
+    background: white;
+}
+.title-container-PopUp
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Inputs
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 2px groove gray;
+    border-radius: 10px;
+    width: 50%;
+    background: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.input
+{
+    width: 100%;
+    outline: none;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+.Inputs > i
+{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 20px;
+}
+.Btn-Container-Notificacion
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.Btn-Container-Notificacion > a,
+.Btn-Container-Notificacion > input[type=submit]
+{
+    width: 40%;
+}
+.Btn-Container-Notificacion > input[type=submit]
+{
+    padding: 10px;
+    background: rgb(0,153,255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+.Btn-Container-Notificacion > a > button
+{
+    width: 100%;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+.Btn-Container-Notificacion > input[type=submit]:hover
+{
+    transition: 1s;
+    opacity: 0.6;
+}
+.Btn-Container-Notificacion > a > button:hover
+{
+    transition: 1s;
+    opacity: 0.6;
+}
