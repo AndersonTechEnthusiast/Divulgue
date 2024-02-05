@@ -24,10 +24,10 @@ O Divulgue é um sistema de fórum publicativo que permite aos usuários explora
 ## Como Contribuir 🤝
 
 1. Faça um fork do projeto.
-2. Clone o repositório: `git clone https://github.com/SeuNome/Divulgue.git`
+2. Clone o repositório: `git clone https://github.com/AndersonTechEnthusiast/Divulgue.git`
 3. Faça suas contribuições.
 4. Envie um pull request.
 
 ## Créditos 🌟
 
-Desenvolvido por [].
+Desenvolvido por [AndersonTechEnthusiast].
